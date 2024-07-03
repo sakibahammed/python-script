@@ -1,6 +1,10 @@
+# pest this line in terminal
+# pip install youtube-comment-scraper
+
+
 from youtube_comment_downloader import *
 
-video_url = 'https://www.youtube.com/watch?v=NkXbbmrxWzs'
+video_url = 'your video-url'
 downloader = YoutubeCommentDownloader()
 
 # Replace with the actual video URL
